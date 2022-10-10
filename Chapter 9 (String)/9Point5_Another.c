@@ -2,10 +2,12 @@
 
 int string_length(char str[])
 {
-    int i;
+    int i = 0;
 
-    for (i = 0; str[i] != '\0'; i++) // Not recommeneded do this
-        ;
+    while (str[i] != '\0')
+    {
+        i++;
+    }
 
     return i;
 }
