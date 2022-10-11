@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // This program is not efficient to compare two string
 
 int string_length(char str[])
 {
@@ -30,11 +30,11 @@ int string_compare(char a[], char b[])
     {
         return 0;
     }
-    if (string_length(a) < string_length(b))
+    else if (string_length(a) < string_length(b))
     {
         return -1;
     }
-    if (string_length(a) > string_length(b))
+    else if (string_length(a) > string_length(b))
     {
         return 1;
     }
