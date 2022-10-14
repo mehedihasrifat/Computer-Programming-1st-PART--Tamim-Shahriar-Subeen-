@@ -30,9 +30,14 @@ int main()
             if (is_word_started == 0)
             {
                 is_word_started = 1;
-            }
 
-            printf("%c", s[i]);
+                printf("%c", s[i]);
+            }
+            else
+            {
+                s[i] = s[i] + 32;
+                printf("%c", s[i]);
+            }
         }
         else
         {
