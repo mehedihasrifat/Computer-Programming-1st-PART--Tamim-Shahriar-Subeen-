@@ -98,3 +98,46 @@ int main()
 
     return 0;
 }
+
+// This part is written by Mehedi Hasan Rifat himself
+
+// #include <stdio.h>
+// #include <math.h>
+
+// int main()
+// {
+//     int n;
+
+//     scanf("%d", &n);
+
+//     int ara[n + 1];
+
+//     ara[0] = 0;
+//     ara[1] = 0;
+
+//     for (int i = 2; i <= n; i++)
+//     {
+//         ara[i] = 1;
+//     }
+
+//     for (int i = 2; i <= sqrt(n); i++)
+//     {
+//         if (ara[i] == 1)
+//         {
+//             for (int m = 2; (i * m) <= n; m++)
+//             {
+//                 ara[i * m] = 0;
+//             }
+//         }
+//     }
+
+//     for (int i = 2; i <= n; i++)
+//     {
+//         if (ara[i] != 0)
+//         {
+//             printf("%d\n", i);
+//         }
+//     }
+
+//     return 0;
+// }
