@@ -12,16 +12,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
+void decimal_binary(int quotient)
 {
-    int num;
     char binary[100];
-    int quotient;
-
-    printf("Enter a decimal number: ");
-    scanf("%d", &num);
-
-    quotient = num;
 
     for (int i = 0; quotient != 0; i++)
     {
@@ -45,6 +38,16 @@ int main()
     }
 
     printf("\n");
+}
+
+int main()
+{
+    int decimal;
+
+    printf("Enter a decimal number: ");
+    scanf("%d", &decimal);
+
+    decimal_binary(decimal);
 
     return 0;
 }
