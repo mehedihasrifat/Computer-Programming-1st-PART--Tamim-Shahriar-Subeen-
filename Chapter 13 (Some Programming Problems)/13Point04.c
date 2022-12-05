@@ -26,7 +26,7 @@
 
 int main()
 {
-    int num, count = 0;
+    int num;
 
     printf("Enter a number: ");
     scanf("%d", &num);
