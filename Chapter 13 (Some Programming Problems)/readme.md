@@ -12,4 +12,8 @@
 
 <br>
 
-<!-- ## Playing with Numbers (Factorial) -->
+## 3. Playing with Numbers (Factorial)
+- _13Point06.c_
+
+<br>
+
